@@ -1,0 +1,8 @@
+# Runtime
+pytest>=7.4
+pytest-cov>=4.1
+
+# Linting / formatting (dev)
+flake8>=6.1
+black>=23.0
+isort>=5.12

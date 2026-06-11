@@ -1,0 +1,35 @@
+# Data files (often large — don't commit raw FASTQ/BAM)
+data/raw/
+data/results/
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
